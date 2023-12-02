@@ -1,0 +1,91 @@
+.body-container{
+
+  & p {
+    color: white;
+    margin: 0;
+
+  }
+  background-color: #18181B;
+  display: flex;
+  width: auto;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 3%;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.btn{
+  border: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0 1rem 0 0;
+  padding: 0;
+}
+
+.btn1{
+  border: 1px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 0 1rem 0 1rem;
+  padding: 0;
+}
+
+
+.btn:focus{
+  color: #BF94FF;
+  border-bottom: 1px solid #BF94FF;
+}
+
+.btn1:focus{
+  color: #BF94FF;
+  border-bottom: 1px solid #BF94FF;
+}
+
+.header{
+
+  border-bottom: 1px solid #67676B;
+
+}
+
+
+
+.footer{
+  & h5{
+    margin: 1rem 0 0 0;
+  }
+
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.input{
+
+  background-color: transparent;
+  border: 1px solid #67676B;
+  border-radius: 3px;
+  width: 100%;
+
+
+}
+
+.input:hover{
+  border: 2px solid #67676B;
+}
+
+.btn-login{
+  background-color: #67676B;
+  text-align: center;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+}
+
